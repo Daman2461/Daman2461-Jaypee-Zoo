@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(m.jpg);
+    background-size: 100%;
+  
+}
+h1 {
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-overflow: clip;
+    animation-duration: 3s;
+    animation-name: bounce;
+  }
+  
+  
+  p{
+    border-block-start-color: teal;
+  }

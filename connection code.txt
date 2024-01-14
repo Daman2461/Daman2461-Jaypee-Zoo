@@ -1,0 +1,9 @@
+<?php 
+$dbhost = "localhost";
+ $dbuser = "root";
+ $dbpass = "Daman@24";
+ $db = "zoo";
+$conn = mysqli_connect($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\n");
+echo "connection Sucess";
+
+?>
